@@ -1,5 +1,19 @@
-JAVA_HOME='/opt/jdk8'
-JAVA_JRE='/opt/jdk8/jre'
+# Add `~/bin` to the `$PATH`
+PATH="$HOME/bin:$PATH"
+
+# path java binaries
 PATH="$PATH:$JAVA_HOME/bin"
 
-export JAVA_HOME JAVA_JRE PATH
+# algumas definicoes para non-root para zzfuncoes
+if [ "$USER" != "root" ]; then
+	export ZZOFF=""                # desligue funcoes indesejadas
+	export ZZPATH="${HOME}/bin/zz" # script
+	source "$ZZPATH"
+fi
+
+# se for mac
+if [ $(uname) == 'Darwin' ]; then
+	export PATH="${PATH}:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin"
+fi
+
+export PATH

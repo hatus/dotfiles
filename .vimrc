@@ -6,8 +6,8 @@
 "______________________ Esquema de Cores
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+colorscheme dracula
+let g:dracula_termtrans=1
 
 "______________________ Mapeamentos do Teclado
 " numeraçãoo das linhas
