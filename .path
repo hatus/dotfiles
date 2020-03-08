@@ -21,4 +21,11 @@ if [ $(uname) == 'Darwin' ]; then
 	export PATH="${PATH}:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin"
 fi
 
+export ANDROID_HOME=$HOME/Android/Sdk
+
+PATH=$PATH:$ANDROID_HOME/emulator
+PATH=$PATH:$ANDROID_HOME/tools
+PATH=$PATH:$ANDROID_HOME/tools/bin
+PATH=$PATH:$ANDROID_HOME/platform-tools
+
 export PATH
