@@ -43,3 +43,8 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 	. /etc/bash_completion
 fi
+
+# if using Linux on Ubuntu...
+if uname -a | grep -q 'Microsoft'; then
+	umask 022
+fi
