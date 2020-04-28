@@ -50,6 +50,9 @@
 [url "git@hatus.net:~/"]
 	insteadOf = "hatus.net:"
 
+[url "git@10.52.90.20:"]
+	insteadOf = "githu:"
+
 [core]
 	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = ~/.gitignore
