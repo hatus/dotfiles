@@ -10,7 +10,7 @@
 	ci = commit
 	cie = commit --allow-empty-message -m ''
 	cb = !git branch | grep ^* | cut -d' ' -f2
-	bl = !git branch --list
+	b = !git branch
 	co = checkout
 	pl = !git pull --rebase origin $(git cb)
 	ps = !git push origin $(git cb)
