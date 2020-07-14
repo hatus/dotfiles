@@ -14,6 +14,7 @@
 	co = checkout
 	pl = !git pull --rebase origin $(git cb)
 	ps = !git push origin $(git cb)
+	psa = !git push origin --all
 	df = diff -C --color-words --patch-with-stat
 	url = config --get remote.origin.url
 
