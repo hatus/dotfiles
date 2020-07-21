@@ -1,14 +1,11 @@
-"______________________
+"
 " (hatus niwman vimrc)
 " -------------------
 " hatus.net - hatusn at gmail dot com
 "
 "______________________ Esquema de Cores
-" Use the Solarized Dark theme
 set background=dark
-packadd! my-dracula-theme
-colorscheme dracula
-let g:dracula_termtrans=1
+"colorscheme dracula
 
 "______________________ Mapeamentos do Teclado
 " numeraçãoo das linhas
