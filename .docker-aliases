@@ -103,3 +103,4 @@ alias drmc=drmc-fn
 alias drmid=drmid-fn
 alias drun=drun-fn
 alias dsr=dsr-fn
+alias dcal="docker-aliases"

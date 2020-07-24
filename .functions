@@ -253,3 +253,9 @@ extract() {
 		echo "'$1' is not a valid file"
 	fi
 }
+
+# show usage docker-aliases
+function docker-aliases {
+	sed -n '/# Usage/,/^#\+$/ p' <(cat ~/.docker-aliases) | sed  's/#//g ; s/^[ \t]*//;s/[ \t]*$// ; /^[[:space:]]*$/d'
+}
+
