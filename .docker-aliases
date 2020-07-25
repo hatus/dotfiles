@@ -87,6 +87,11 @@ function dc-fn {
         docker-compose $*
 }
 
+# inspect volumes from container
+function div  {
+	docker inspect -f {{.Mounts}} $1
+}
+
 alias dc="dc-fn"
 alias dcu="docker-compose up -d"
 alias dcd="docker-compose down"
