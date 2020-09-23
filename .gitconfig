@@ -17,6 +17,7 @@
 	psa = !git push origin --all
 	df = diff -C --color-words --patch-with-stat
 	url = config --get remote.origin.url
+	sw = diff-tree --no-commit-id --name-only -r
 
 [branch]
 	autosetuprebase = always
