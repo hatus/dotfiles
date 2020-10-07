@@ -220,4 +220,6 @@ alias webshare='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'
 # enable gpu fans
 alias fangpu="systemctl --user start nfancurve"
 
+alias nlh="nmap localhost"
+
 . ~/.docker-aliases
