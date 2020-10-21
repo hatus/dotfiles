@@ -222,5 +222,6 @@ alias fangpu="systemctl --user start nfancurve"
 
 alias nlh="nmap localhost"
 alias nhh="nmap hatus.net"
+alias del="rm -rf"
 
 . ~/.docker-aliases
